@@ -333,7 +333,7 @@ The results shown are not guaranteed for production use, and you are responsible
         </tr>
     </thead>   
         <tr>
-            <td align="center" rowspan="4" class="model">YOLOv11</td> <!-- Models -->
+            <td align="center" rowspan="4" class="model">YOLOv11-Seg</td> <!-- Models -->
             <td align="center" class="variant" rowspan="2">m</td> <!-- Models: Variant -->
             <td align="center">512x512x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">37.5</td> <!-- Inference Time (msec): EVB -->
@@ -369,7 +369,7 @@ Follow these steps to run a model provided by Telechips Model Zoo on the TCC750x
 
 ### 1. Clone the repository:
 <pre> <code>
-git clone git@github.com:Telechips-DAPT/Telechips-Model-Zoo.git
+git clone git@github.com:telechips-ai/TCC750x-Model-Zoo.git
 </code> </pre>
 
 ### 2. Copy the desired model to the EVB:
