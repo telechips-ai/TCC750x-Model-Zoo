@@ -333,7 +333,7 @@ Click on the model name to download a tar file containing the model binary for T
         </tr>
         <tr>
             <td align="center" class="variant"><a href="YOLO/yoloX/yolox_m/">m</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">49.35</td>
