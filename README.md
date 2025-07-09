@@ -390,7 +390,7 @@ yolov5m/
 </code> </pre>
 Then run:
 <pre> <code>
-scp -r yolov5m_quantized/ root@192.168.0.100:/home/root/
+scp -r yolov5m/ root@192.168.0.100:/home/root/
 </code> </pre>
 
 ### 3. Run the model using tcnputestapp or tcnnapp:
