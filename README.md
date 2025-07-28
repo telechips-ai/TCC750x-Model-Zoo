@@ -38,6 +38,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <th rowspan="2">Input Size (WxHxC)</th>
             <th rowspan="2">Inference Time (ms)</th>
             <th rowspan="2">Accuracy</th>
+            <th rowspan="2">License</th>
         </tr>
     </thead>
     <tbody>
@@ -46,18 +47,21 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center">224×224×3</td>
             <td align="center">133.05</td>
             <td align="center">0.484</td>
+            <td align="center"><a href="/_License/MIT">MIT</a></td>
         </tr>
         <tr>
             <td align="center" colspan="2">EfficientNet-Lite0</td>
             <td align="center">224×224×3</td>
             <td align="center">1.26</td>
             <td align="center">0.711</td>
+            <td align="center"><a href="/_License/Apache-2.0">Apache-2.0</a></td> <!-- License: Link -->
         </tr>
         <tr>
             <td align="center" rowspan="3" colspan="2">EfficientNet-v2s</td>
             <td align="center">224×224×3</td>
             <td align="center">11.15</td>
             <td align="center">0.461</td>
+            <td rowspan="3" align="center"><a href="/_License/BSD-3-Clause">BSD-3-Clause</a></td>
         </tr>
         <tr>
             <td align="center">640×320×3</td>
@@ -74,18 +78,21 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center">32×32×1</td>
             <td align="center">0.05</td>
             <td align="center">0.982</td>
+            <td align="center"><a href="/_License/Apache-2.0">Apache-2.0</a></td> <!-- License: Link -->
         </tr>
         <tr>
             <td align="center" colspan="2">MobileNet-v2-10</td>
             <td align="center">224×224×3</td>
             <td align="center">1.24</td>
             <td align="center">0.688</td>
+            <td align="center"><a href="/_License/Apache-2.0">Apache-2.0</a></td> <!-- License: Link -->
         </tr>
         <tr>
             <td align="center" rowspan="2" colspan="2">MobileOne-s1</td>
             <td align="center">640×320×3</td>
             <td align="center">4.7</td>
             <td align="center">0.522</td>
+            <td rowspan="2" align="center"><a href="/_License/Apple">APPLE</a></td>
         </tr>
         <tr>
             <td align="center">960×520×3</td>
@@ -97,6 +104,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center">640×320×3</td>
             <td align="center">7.17</td>
             <td align="center">0.524</td>
+            <td rowspan="2" align="center"><a href="/_License/BSD-3-Clause">BSD-3-Clause</a></td>
         </tr>
         <tr>
             <td align="center">960×520×3</td>
@@ -108,6 +116,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center">640×320×3</td>
             <td align="center">15.34</td>
             <td align="center">0.586</td>
+            <td rowspan="2" align="center"><a href="/_License/BSD-3-Clause">BSD-3-Clause</a></td>
         </tr>
         <tr>
             <td align="center">960×520×3</td>
@@ -119,6 +128,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center">224×224×3</td>
             <td align="center">9.09</td>
             <td align="center">0.716</td>
+            <td rowspan="3" align="center"><a href="/_License/BSD-3-Clause">BSD-3-Clause</a></td>
         </tr>
         <tr>
             <td align="center">640×320×3</td>
@@ -135,6 +145,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center">224×224×3</td>
             <td align="center">9.84</td>
             <td align="center">0.677</td>
+            <td align="center"><a href="/_License/Apache-2.0">Apache-2.0</a></td> <!-- License: Link -->
         </tr>
     </tbody>
 </table>
@@ -147,6 +158,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <th rowspan="2">Input Size (WxHxC)</th>
             <th rowspan="2">Inference Time (ms)</th>
             <th rowspan="2">mAP@50</th>
+            <th rowspan="2">License</th>
         </tr>
     </thead>      
         <tr>
@@ -154,24 +166,28 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center">320x320x3</td> <!-- Input Size(WxHxC) -->
             <td align="center">2.46</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.367</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center"><a href="/_License/Apache-2.0">Apache-2.0</a></td> <!-- License: Link -->
         </tr>
         <tr>
             <td align="center" colspan="2">SSDlite-MobileNet-v2</td> <!-- Model -->
             <td align="center">300x300x3</td> <!-- Input Size(WxHxC) -->
             <td align="center">2.00</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.651</td> <!-- Evaluation Result: INT8 -->
+            <td align="center"><a href="/_License/MIT">MIT</a></td>
         </tr>
         <tr>
             <td align="center" colspan="2">YOLOv3</td> <!-- Model -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">63.60</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.598</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
+            <td align="center"><a href="/_License/AGPL-3.0">AGPL-3.0</a></td>
         </tr>
         <tr>
             <td align="center" colspan="2">YOLOv4</td> <!-- Model -->
             <td align="center">608x608x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">57.50</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.735</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
+            <td align="center"><a href="/_License/YOLO">YOLO</a></td>
         </tr>
         <tr>
             <td align="center" rowspan="5" class="model">YOLOv5</td> <!-- Models -->
@@ -179,6 +195,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">8.97</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.383</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
+            <td rowspan="5" align="center"><a href="/_License/AGPL-3.0">AGPL-3.0</a></td>
         </tr>
         <tr>
             <td align="center" class="variant">s</td> <!-- Models: Variant -->
@@ -210,6 +227,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">6.50</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.493</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
+            <td rowspan="4" align="center"><a href="/_License/GPL-3.0">GPL-3.0</a></td>
         </tr>
         <tr>
             <td align="center" class="variant">s</td> <!-- Models: Variant -->
@@ -235,6 +253,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">50.21</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.648</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
+            <td rowspan="2" align="center"><a href="/_License/GPL-3.0">GPL-3.0</a></td>
         </tr>
         <tr>
             <td align="center" class="variant">tiny</td>
@@ -248,6 +267,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">8.09</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.488</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
+            <td rowspan="5" align="center"><a href="/_License/AGPL-3.0">AGPL-3.0</a></td>
         </tr>
         <tr>
             <td align="center" class="variant">s</td> <!-- Models: Variant -->
@@ -279,6 +299,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center">640x640x3</td>
             <td align="center">77.34</td>
             <td align="center">0.551</td>
+            <td align="center"><a href="/_License/AGPL-3.0">AGPL-3.0</a></td>
         </tr>
         <tr>
             <td align="center" rowspan="6" class="model">YOLOX</td> <!-- Models -->
@@ -286,6 +307,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">24.52</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.467</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
+            <td rowspan="6" align="center"><a href="/_License/Apache-2.0">Apache-2.0</a></td> <!-- License: Link -->
         </tr>
         <tr>
             <td align="center" class="variant">m</td> <!-- Models: Variant -->
@@ -330,6 +352,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <th rowspan="2">Inference Time (ms)</th>
             <th rowspan="2">BBox mAP@50</th>
             <th rowspan="2">Mask mAP@50</th>
+            <th rowspan="2">License</th>
         </tr>
     </thead>   
         <tr>
@@ -339,6 +362,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center">37.5</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.579</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center">0.518</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
+            <td rowspan="4" align="center"><a href="/_License/AGPL-3.0">AGPL-3.0</a></td>
         </tr>
         <tr>
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -401,3 +425,16 @@ or
 <pre> <code>
 tcnnapp -n [network_output_folder_path]
 </code> </pre>
+
+---
+## 4. **License**
+* Model: For each model’s license, please refer to the License block.
+
+* Dataset
+
+| Dataset         | SPDX Identifier       | Full Name                                         | Link                                                                 |
+|----------------|-----------------------|--------------------------------------------------|----------------------------------------------------------------------|
+| **COCO2017**    | CC-BY-4.0             | Creative Commons Attribution 4.0 International   | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)           |
+| **COCO-Seg**    | CC-BY-4.0             | Microsoft COCO Segmentation Dataset              | [COCO Segmentation](https://cocodataset.org/#home)                  |
+| **ILSVRC2012**  | ImageNet Terms of Use | ImageNet Terms of Use                            | [ImageNet](https://www.image-net.org/)                              |
+
