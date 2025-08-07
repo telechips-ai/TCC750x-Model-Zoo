@@ -12,7 +12,7 @@
             <th align="center" colspan="2">mAP@50</th>
             <th align="center" rowspan="2">Quantization Bit</th>
             <th align="center" colspan="2">Compiled Model Files</th>
-            <th align="center" rowspan="2">References</th>
+            <th align="center" colspan="2">References</th>
         </tr>
         <tr>
             <th>FP32</th>
@@ -21,6 +21,8 @@
             <th>INT8</th>
             <th>Weight and Bias Binary (MB)</th>
             <th>Command Binary (KB)</th>
+            <th>Link</th>
+            <th>License</th>
         </tr>
     </thead>
     <tbody>
@@ -38,6 +40,7 @@
             <td align="center">62.92</td>
             <td align="center">306</td>
             <td align="center"><a href="https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4.cfg">Github<a></td> <!-- References: Link -->
+            <td align="center">YOLO</td>
         </tr>
     </tbody>
 </table>

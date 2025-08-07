@@ -1,9 +1,9 @@
 # ResNet Benchmark on TCC750x
 
-The following table shows benchmark results for the ResNet-18, ResNet-50, and ResNet-50-v2 models running on the TCC750x NPU.  
-ResNet is a family of lightweight and efficient convolutional neural networks optimized for image classification tasks, particularly on embedded and mobile devices.   
+The following table shows benchmark results for the ResNet-18, ResNet-50, and ResNet-50-v2 models running on the TCC750x NPU.
+ResNet is a family of lightweight and efficient convolutional neural networks optimized for image classification tasks, particularly on embedded and mobile devices.
 
-All models are evaluated using the ILSVRC 2012 (ImageNet) validation dataset and compiled with the tc-nn-toolkit toolkit.  
+All models are evaluated using the ILSVRC 2012 (ImageNet) validation dataset and compiled with the tc-nn-toolkit toolkit.
 Click on the model name to download a tar file containing the model binary for TCC750x.
 
 ---
@@ -21,8 +21,8 @@ Click on the model name to download a tar file containing the model binary for T
 | **Accuracy**             | Top-1 classification accuracy on the ILSVRC 2012 (ImageNet) validation dataset (50,000 images)                   |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
 | **Compiled Model Files**   | Sizes of the compiled model components: Weight and Bias Binary (.bin) and Command Binary (.bin) for execution on TCC750x                    |
-| **References**           | Link to the original repository of the model      
-  
+| **References**           | Link and license\** information for the original repository of the model
+
 
 - - -
 
@@ -37,13 +37,15 @@ Click on the model name to download a tar file containing the model binary for T
             <th colspan="2">Accuracy</th>
             <th rowspan="2">Quantization Bit</th>
             <th colspan="2">Compiled Model Files</th>
-            <th rowspan="2">References</th>
+            <th colspan="2">References</th>
         </tr>
         <tr>
             <th>FP32</th>
             <th>INT8</th>
             <th>Weight and Bias Binary Size (MB)</th>
             <th>Command Binary Size (KB)</th>
+            <th>Link</th>
+            <th>License</th>
         </tr>
     </thead>
     <tbody>
@@ -59,7 +61,8 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">INT8 </td>
             <td align="center">11.25</td>
             <td align="center">23</td>
-            <td align="center" rowspan="2" class="variant"><a href="https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet18.html#torchvision.models.resnet18">PyTorch</a></td>
+            <td align="center" rowspan="2"><a href="https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet18.html#torchvision.models.resnet18">PyTorch</a></td>
+            <td align="center" rowspan="2">BSD-3-Clause</td>
         </tr>
         <tr>
             <td align="center">PyTorch</td>
@@ -83,7 +86,8 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">INT8 </td>
             <td align="center">25.1</td>
             <td align="center">30</td>
-            <td align="center" rowspan="3" class="variant"><a href="https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html#torchvision.models.resnet50">PyTorch</a></td>
+            <td align="center" rowspan="3"><a href="https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html#torchvision.models.resnet50">PyTorch</a></td>
+            <td align="center" rowspan="3">BSD-3-Clause</td>
         </tr>
         <tr>
             <td align="center">PyTorch</td>
@@ -118,7 +122,8 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">INT8 </td>
             <td align="center">25.3</td>
             <td align="center">32</td>
-            <td align="center" rowspan="1" class="variant"><a href="https://github.com/onnx/models/tree/main/validated/vision/classification/resnet">Github</a></td>
+            <td align="center" rowspan="1"><a href="https://github.com/onnx/models/tree/main/validated/vision/classification/resnet">Github</a></td>
+            <td align="center" rowspan="1">Apache-2.0</td>
         </tr>
     </tbody>
 </table>
@@ -127,9 +132,16 @@ Click on the model name to download a tar file containing the model binary for T
 
 ## 📤 Output Format
 
-- The model returns the index of the top-1 class with the highest confidence score among the 1,000 ImageNet classes.
+- The model's raw output consists of logit values corresponding to all 1000 ImageNet claasses.
+- These outputs can be post-processed using softmax or argmax as needed.
 
 - - -
 
-### Footnote                
+### Footnote
 * PyTorch* models are converted to ONNX for deployment.
+
+* License\**:
+  - Telechips Inc. is not responsible for any issues, damages, or losses resulting from the use of code downloaded from GitHub repositories provided by Telechips.
+  - The performance results of neural networks (such as, mAP or inference time) are not subject to license term and may be used freely.
+  - Any output generated by software execution may or may not be subject to license terms, depending on the contract and intended use of the output.
+

@@ -1,6 +1,6 @@
 # YOLO Series Benchmark on TCC750x
 
-The following table shows benchmark results for various YOLO object detection models running on the TCC750x NPU.  
+The following table shows benchmark results for various YOLO object detection models running on the TCC750x NPU.
 YOLO models are widely known for their real-time performance and high accuracy in detecting multiple objects in a single pass over the image.
 
 Click on the model name to download a tar file containing the model binary for TCC750x.
@@ -24,7 +24,7 @@ Click on the model name to download a tar file containing the model binary for T
 | **mAP**             | Mean Average Precision (mAP) is evaluated on the **COCO2017 validation dataset** (5,000 images)                    |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
 | **Compiled Model Files**   | Sizes of the compiled model components: Weight and Bias Binary (.bin) and Command Binary (.bin) for execution on TCC750x                    |
-| **References**           | Link to the original repository of the model                         |
+| **References**           | Link and license\** information for the original repository of the model                         |
 
 ---
 
@@ -34,15 +34,15 @@ Click on the model name to download a tar file containing the model binary for T
     <thead>
         <tr>
             <th align="center" rowspan="2" colspan="2">Model</th>
-            <th th align="center" rowspan="2">Framework</th>
-            <th th align="center" rowspan="2">Dataset</th>
-            <th th align="center" rowspan="2">Input Size (WxHxC)</th>
+            <th align="center" rowspan="2">Framework</th>
+            <th align="center" rowspan="2">Dataset</th>
+            <th align="center" rowspan="2">Input Size (WxHxC)</th>
             <th align="center" rowspan="2">Inference Time (ms)</th>
             <th align="center" colspan="2">mAP@50:95</th>
             <th align="center" colspan="2">mAP@50</th>
             <th align="center" rowspan="2">Quantization Bit</th>
             <th align="center" colspan="2">Compiled Model Files</th>
-            <th align="center" rowspan="2">References</th>
+            <th align="center" colspan="2">References</th>
         </tr>
         <tr>
             <th>FP32</th>
@@ -51,6 +51,8 @@ Click on the model name to download a tar file containing the model binary for T
             <th>INT8</th>
             <th>Weight and Bias Binary (MB)</th>
             <th>Command Binary (KB)</th>
+            <th>Link</th>
+            <th>License</th>
         </tr>
     </thead>
     <tbody>
@@ -68,6 +70,7 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">60.55</td>
             <td align="center">230</td>
             <td align="center"><a href="https://github.com/ultralytics/yolov3">GitHub<a></td> <!-- References: Link -->
+            <td align="center">AGPL-3.0</td>
         </tr>
         <tr>
             <td align="center" colspan="2"><a href="./yolov4/yolov4/">YOLOv4</a></td> <!-- Model -->
@@ -83,6 +86,7 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">62.92</td>
             <td align="center">306</td>
             <td align="center"><a href="https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4.cfg">Github<a></td> <!-- References: Link -->
+            <td align="center">YOLO</td>
         </tr>
         <tr>
             <td align="center" rowspan="5" class="model">YOLOv5</td> <!-- Model -->
@@ -99,6 +103,7 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">1.86</td>
             <td align="center">78</td>
             <td align="center" rowspan="5"><a href="https://github.com/ultralytics/yolov5">GitHub<a></td> <!-- References: Link -->
+            <td align="center" rowspan="5">AGPL-3.0</td>
         </tr>
         <tr>
             <td align="center" class="variant"><a href="./yolov5/yolov5s/">s</a></td> <!-- Model -->
@@ -171,6 +176,7 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">4.56</td>
             <td align="center">37</td>
             <td align="center" rowspan="4"><a href="https://github.com/meituan/YOLOv6">GitHub<a></td> <!-- References: Link -->
+            <td align="center" rowspan="4">GPL-3.0</td>
         </tr>
         <tr>
             <td align="center" class="variant"><a href="./yolov6/yolov6s/">s</a></td> <!-- Model -->
@@ -229,6 +235,7 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">36.11</td>
             <td align="center">242</td>
             <td align="center" rowspan="2"><a href="https://github.com/WongKinYiu/yolov7">GitHub<a></td> <!-- References: Link -->
+            <td align="center" rowspan="2">GPL-3.0</td>
         </tr>
         <tr>
             <td align="center" class="variant"><a href="./yolov7/yolov7_tiny/">tiny</a></td>
@@ -259,6 +266,7 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">3.15</td>
             <td align="center">70</td>
             <td align="center" rowspan="5"><a href="https://github.com/ultralytics/ultralytics">GitHub<a></td> <!-- References: Link -->
+            <td align="center" rowspan="5">AGPL-3.0</td>
         </tr>
         <tr>
             <td align="center" class="variant"><a href="./yolov8/yolov8s/">s</a></td> <!-- Model -->
@@ -331,6 +339,7 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">7.343</td>
             <td align="center">132</td>
             <td align="center" rowspan="1"><a href="https://github.com/ultralytics/ultralytics">GitHub<a></td> <!-- References: Link -->
+            <td align="center" rowspan="1">AGPL-3.0</td>
         </tr>
         <tr>
             <td align="center" rowspan="6" class="model">YOLOX</td> <!-- Model -->
@@ -347,6 +356,7 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">8.82</td>
             <td align="center">186</td>
             <td align="center" rowspan="6"><a href="https://github.com/Megvii-BaseDetection/YOLOX">GitHub<a></td> <!-- References: Link -->
+            <td align="center" rowspan="6">Apache-2.0</td>
         </tr>
         <tr>
             <td align="center" class="variant"><a href="./yoloX/yolox_m/">m</a></td> <!-- Model -->
@@ -437,5 +447,10 @@ Click on the model name to download a tar file containing the model binary for T
 
 - The number and format of output tensors may vary slightly depending on the YOLO version (e.g., v5, v6, v8, and YOLOX), but the core structure remains similar.
 
-### Footnote                
+### Footnote
 * PyTorch* models are converted to ONNX for deployment.
+
+* License\**:
+  - Telechips Inc. is not responsible for any issues, damages, or losses resulting from the use of code downloaded from GitHub repositories provided by Telechips.
+  - The performance results of neural networks (such as, mAP or inference time) are not subject to license term and may be used freely.
+  - Any output generated by software execution may or may not be subject to license terms, depending on the contract and intended use of the output.

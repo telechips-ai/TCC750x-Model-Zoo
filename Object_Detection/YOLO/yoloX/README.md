@@ -12,7 +12,7 @@
             <th align="center" colspan="2">mAP@50</th>
             <th align="center" rowspan="2">Quantization Bit</th>
             <th align="center" colspan="2">Compiled Model Files</th>
-            <th align="center" rowspan="2">References</th>
+            <th align="center" colspan="2">References</th>
         </tr>
         <tr>
             <th>FP32</th>
@@ -21,6 +21,8 @@
             <th>INT8</th>
             <th>Weight and Bias Binary (MB)</th>
             <th>Command Binary (KB)</th>
+            <th>Link</th>
+            <th>License</th>
         </tr>
     </thead>
     <tbody>
@@ -39,6 +41,7 @@
             <td align="center">8.82</td>
             <td align="center">186</td>
             <td align="center" rowspan="6"><a href="https://github.com/Megvii-BaseDetection/YOLOX">GitHub</a></td> <!-- References: Link -->
+            <td align="center" rowspan="6">Apache-2.0</td>
         </tr>
         <tr>
             <td align="center" class="variant">m</td> <!-- Model -->

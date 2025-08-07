@@ -401,3 +401,16 @@ or
 <pre> <code>
 tcnnapp -n [network_output_folder_path]
 </code> </pre>
+
+---
+## 4. **License**
+* Model: For each model’s license, please refer to the License block.
+
+* Dataset
+
+| Dataset         | SPDX Identifier       | Full Name                                         | Link                                                                 |
+|----------------|-----------------------|--------------------------------------------------|----------------------------------------------------------------------|
+| **COCO2017**    | CC-BY-4.0             | Creative Commons Attribution 4.0 International   | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)           |
+| **COCO-Seg**    | CC-BY-4.0             | Microsoft COCO Segmentation Dataset              | [COCO Segmentation](https://cocodataset.org/#home)                  |
+| **ILSVRC2012**  | ImageNet Terms of Use | ImageNet Terms of Use                            | [ImageNet](https://www.image-net.org/)                              |
+
