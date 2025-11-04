@@ -403,7 +403,11 @@ tcnnapp -n [network_output_folder_path]
 </code> </pre>
 
 ---
-## 4. **License**
+## 4. Requirement
+SDK Version: Linux_YP4.0_v1.0.0
+
+---
+## 5. **License**
 * Model: For each model’s license, please refer to the License block.
 
 * Dataset
