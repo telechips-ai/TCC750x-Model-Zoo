@@ -32,14 +32,14 @@
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">50.21</td>
-            <td align="center">0.479</td>
-            <td align="center">0.421</td>
-            <td align="center">0.662</td>
-            <td align="center">0.648</td>
+            <td align="right">50.21</td>
+            <td align="right">0.479</td>
+            <td align="right">0.421</td>
+            <td align="right">0.662</td>
+            <td align="right">0.648</td>
             <td align="center">INT8 </td>
-            <td align="center">36.11</td>
-            <td align="center">242</td>
+            <td align="right">36.11</td>
+            <td align="right">242</td>
             <td align="center" rowspan="2"><a href="https://github.com/WongKinYiu/yolov7">GitHub<a></td> <!-- References: Link -->
             <td align="center" rowspan="2">GPL-3.0</td>
         </tr>
@@ -48,14 +48,14 @@
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">9.84</td>
-            <td align="center">0.154</td>
-            <td align="center">0.136</td>
-            <td align="center">0.488</td>
-            <td align="center">0.459</td>
+            <td align="right">9.84</td>
+            <td align="right">0.154</td>
+            <td align="right">0.136</td>
+            <td align="right">0.488</td>
+            <td align="right">0.459</td>
             <td align="center">INT8 </td>
-            <td align="center">6.11</td>
-            <td align="center">59</td>
+            <td align="right">6.11</td>
+            <td align="right">59</td>
         </tr>
     </tbody>
 </table>

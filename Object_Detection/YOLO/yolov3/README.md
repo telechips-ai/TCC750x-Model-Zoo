@@ -31,14 +31,14 @@
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">63.6</td>
-            <td align="center">0.439</td>
-            <td align="center">0.386</td>
-            <td align="center">0.63</td>
-            <td align="center">0.598</td>
+            <td align="right">63.6</td>
+            <td align="right">0.439</td>
+            <td align="right">0.386</td>
+            <td align="right">0.63</td>
+            <td align="right">0.598</td>
             <td align="center">INT8 </td>
-            <td align="center">60.55</td>
-            <td align="center">230</td>
+            <td align="right">60.55</td>
+            <td align="right">230</td>
             <td align="center"><a href="https://github.com/ultralytics/yolov3">GitHub<a></td> <!-- References: Link -->
             <td align="center">AGPL-3.0</td>
         </tr>

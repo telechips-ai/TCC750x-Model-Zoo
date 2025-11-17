@@ -58,14 +58,14 @@ Click on the model name to download a tar file containing the model binary.
             <td align="center">TFLite</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">320x320x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">2.46</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.219</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.212</td> <!-- Evaluation Result: INT8 -->
-            <td align="center">0.376</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
-            <td align="center">0.367</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
+            <td align="right">2.38</td> <!-- Inference Time(msec): EVB -->
+            <td align="right">0.187</td> <!-- Evaluation Result: FP32 -->
+            <td align="right">0.182</td> <!-- Evaluation Result: INT8 -->
+            <td align="right">0.331</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="right">0.324</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
-            <td align="center">7.25</td>
-            <td align="center">41</td>
+            <td align="right">7.25</td>
+            <td align="right">41</td>
             <td align="center"><a href="https://tfhub.dev/iree/lite-model/ssd_mobilenet_v1_100_320/fp32/nms/1">GitHub<a></td> <!-- References: Link -->
             <td align="center">Apache-2.0</td>
         </tr>
@@ -74,14 +74,14 @@ Click on the model name to download a tar file containing the model binary.
             <td align="center">ONNX</td> <!-- Framework -->
             <td align="center">VOC2007</td> <!-- Detections/DataSet -->
             <td align="center">300x300x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">2.00</td> <!-- Inference Time(msec): EVB -->
+            <td align="right">1.67</td> <!-- Inference Time(msec): EVB -->
             <td align="center">-</td> <!-- Evaluation Result: FP32 -->
             <td align="center">-</td> <!-- Evaluation Result: INT8 -->
-            <td align="center">0.661</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
-            <td align="center">0.651</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
+            <td align="right">0.676</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="right">0.672</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
-            <td align="center">4.04</td>
-            <td align="center">54</td>
+            <td align="right">4.04</td>
+            <td align="right">54</td>
             <td align="center"><a href="https://github.com/openedges/pytorch-ssd">GitHub<a></td> <!-- References: Link -->
             <td align="center">MIT</td>
         </tr>

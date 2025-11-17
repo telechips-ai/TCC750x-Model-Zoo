@@ -54,12 +54,12 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">MXNet</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">224x224x3</td>
-            <td align="center">1.24</td>
-            <td align="center">0.698</td>
-            <td align="center">0.688</td>
+            <td align="right">0.97</td>
+            <td align="right">0.660</td>
+            <td align="right">0.652</td>
             <td align="center">INT8</td>
-            <td align="center">3.47</td>
-            <td align="center">41</td>
+            <td align="right">3.47</td>
+            <td align="right">41</td>
             <td align="center"><a href="https://github.com/onnx/models/tree/main/validated/vision/classification/mobilenet">GitHub</a></td>
             <td align="center">Apache-2.0</td>
         </tr>

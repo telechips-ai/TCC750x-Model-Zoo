@@ -32,14 +32,14 @@
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">77.34</td>
-            <td align="center">0.414</td>
-            <td align="center">0.404</td>
-            <td align="center">0.562</td>
-            <td align="center">0.551</td>
+            <td align="right">19.33</td>
+            <td align="right">0.423</td>
+            <td align="right">0.413</td>
+            <td align="right">0.581</td>
+            <td align="right">0.569</td>
             <td align="center">INT8 </td>
-            <td align="center">7.343</td>
-            <td align="center">132</td>
+            <td align="right">7.343</td>
+            <td align="right">132</td>
             <td align="center" rowspan="1"><a href="">GitHub</a></td> <!-- References: Link -->
             <td align="center" rowspan="1">AGPL-3.0</td>
         </tr>

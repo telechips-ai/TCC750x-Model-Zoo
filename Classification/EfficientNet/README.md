@@ -54,12 +54,12 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">224x224x3</td>
-            <td align="center">1.26</td>
-            <td align="center">0.714</td>
-            <td align="center">0.711</td>
+            <td align="right">1.26</td>
+            <td align="right">0.714</td>
+            <td align="right">0.711</td>
             <td align="center">INT8 </td>
-            <td align="center">4.67</td>
-            <td align="center">22</td>
+            <td align="right">4.67</td>
+            <td align="right">22</td>
             <td align="center"><a href="https://huggingface.co/timm/efficientnet_lite0.ra_in1k">Hugging Face</a></td>
             <td align="center">Apache-2.0</td>
         </tr>
@@ -69,12 +69,12 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">224x224x3</td>
-            <td align="center">11.15</td>
-            <td align="center">0.782</td>
-            <td align="center">0.461</td>
+            <td align="right">11.15</td>
+            <td align="right">0.782</td>
+            <td align="right">0.461</td>
             <td align="center">INT8 </td>
-            <td align="center">21.54</td>
-            <td align="center">364</td>
+            <td align="right">21.54</td>
+            <td align="right">364</td>
             <td align="center" rowspan="3"><a href="https://docs.pytorch.org/vision/main/models/generated/torchvision.models.efficientnet_v2_s.html#torchvision.models.EfficientNet_V2_S_Weights">PyTorch</a></td>
             <td align="center" rowspan="3">BSD-3-Clause</td>
         </tr>
@@ -82,23 +82,23 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">640x320x3</td>
-            <td align="center">39.25</td>
-            <td align="center">0.695</td>
-            <td align="center">0.673</td>
+            <td align="right">39.25</td>
+            <td align="right">0.695</td>
+            <td align="right">0.673</td>
             <td align="center">INT8 </td>
-            <td align="center">21.04</td>
-            <td align="center">445</td>
+            <td align="right">21.04</td>
+            <td align="right">445</td>
         </tr>
         <tr>
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">960x520x3</td>
-            <td align="center">74.96</td>
-            <td align="center">0.724</td>
-            <td align="center">0.688</td>
+            <td align="right">74.96</td>
+            <td align="right">0.724</td>
+            <td align="right">0.688</td>
             <td align="center">INT8 </td>
-            <td align="center">21.04</td>
-            <td align="center">753</td>
+            <td align="right">21.04</td>
+            <td align="right">753</td>
         </tr>
     </tbody>
 </table>

@@ -32,14 +32,14 @@
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">24.52</td>
-            <td align="center">0.316</td>
-            <td align="center">0.308</td>
-            <td align="center">0.473</td>
-            <td align="center">0.467</td>
+            <td align="right">24.52</td>
+            <td align="right">0.316</td>
+            <td align="right">0.308</td>
+            <td align="right">0.473</td>
+            <td align="right">0.467</td>
             <td align="center">INT8 </td>
-            <td align="center">8.82</td>
-            <td align="center">186</td>
+            <td align="right">8.82</td>
+            <td align="right">186</td>
             <td align="center" rowspan="6"><a href="https://github.com/Megvii-BaseDetection/YOLOX">GitHub</a></td> <!-- References: Link -->
             <td align="center" rowspan="6">Apache-2.0</td>
         </tr>
@@ -48,70 +48,70 @@
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">49.35</td>
-            <td align="center">0.382</td>
-            <td align="center">0.371</td>
-            <td align="center">0.542</td>
-            <td align="center">0.536</td>
+            <td align="right">49.35</td>
+            <td align="right">0.382</td>
+            <td align="right">0.371</td>
+            <td align="right">0.542</td>
+            <td align="right">0.536</td>
             <td align="center">INT8 </td>
-            <td align="center">24.86</td>
-            <td align="center">235</td>
+            <td align="right">24.86</td>
+            <td align="right">235</td>
         </tr>
         <tr>
             <td align="center" class="variant">l</td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">77.11</td>
-            <td align="center">0.414</td>
-            <td align="center">0.403</td>
-            <td align="center">0.572</td>
-            <td align="center">0.565</td>
+            <td align="right">77.11</td>
+            <td align="right">0.414</td>
+            <td align="right">0.403</td>
+            <td align="right">0.572</td>
+            <td align="right">0.565</td>
             <td align="center">INT8 </td>
-            <td align="center">53.08</td>
-            <td align="center">370</td>
+            <td align="right">53.08</td>
+            <td align="right">370</td>
         </tr>
         <tr>
             <td align="center" class="variant">x</td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">136.51</td>
-            <td align="center">0.432</td>
-            <td align="center">0.418</td>
-            <td align="center">0.591</td>
-            <td align="center">0.583</td>
+            <td align="right">136.51</td>
+            <td align="right">0.432</td>
+            <td align="right">0.418</td>
+            <td align="right">0.591</td>
+            <td align="right">0.583</td>
             <td align="center">INT8 </td>
-            <td align="center">97.01</td>
-            <td align="center">558</td>
+            <td align="right">97.01</td>
+            <td align="right">558</td>
         </tr>
         <tr>
             <td align="center" class="variant">tiny</td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">416x416x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">8.53</td>
-            <td align="center">0.265</td>
-            <td align="center">0.255</td>
-            <td align="center">0.411</td>
-            <td align="center">0.401</td>
+            <td align="right">8.53</td>
+            <td align="right">0.265</td>
+            <td align="right">0.255</td>
+            <td align="right">0.411</td>
+            <td align="right">0.401</td>
             <td align="center">INT8 </td>
-            <td align="center">5.04</td>
-            <td align="center">61</td>
+            <td align="right">5.04</td>
+            <td align="right">61</td>
         </tr>
         <tr>
             <td align="center" class="variant">nano</td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">416x416x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">6.09</td>
-            <td align="center">0.201</td>
-            <td align="center">0.063</td>
-            <td align="center">0.326</td>
-            <td align="center">0.112</td>
+            <td align="right">6.09</td>
+            <td align="right">0.201</td>
+            <td align="right">0.063</td>
+            <td align="right">0.326</td>
+            <td align="right">0.112</td>
             <td align="center">INT8 </td>
-            <td align="center">0.93</td>
-            <td align="center">62</td>
+            <td align="right">0.93</td>
+            <td align="right">62</td>
         </tr>
     </tbody>
 </table>

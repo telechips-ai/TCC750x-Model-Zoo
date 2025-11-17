@@ -53,12 +53,12 @@ Click on the model name to download a tar file containing the model binary for T
                 <td align="center">PyTorch</td>
                 <td align="center">ILSVRC 2012</td>
                 <td align="center">224x224x3</td>
-                <td align="center">133.05</td>
-                <td align="center">0.531</td>
-                <td align="center">0.484</td>
+                <td align="right">133.05</td>
+                <td align="right">0.531</td>
+                <td align="right">0.484</td>
                 <td align="center">INT8 </td>
-                <td align="center">21</td>
-                <td align="center">966</td>
+                <td align="right">21</td>
+                <td align="right">966</td>
                 <td align="center"><a href="https://huggingface.co/timm/convmixer_768_32.in1k">Hugging Face</a></td>
                 <td align="center">MIT</td>
             </tr>

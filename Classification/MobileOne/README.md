@@ -54,12 +54,12 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">640x320x3</td>
-            <td align="center">4.7</td>
-            <td align="center">0.556</td>
-            <td align="center">0.522</td>
+            <td align="right">4.70</td>
+            <td align="right">0.556</td>
+            <td align="right">0.522</td>
             <td align="center">INT8 </td>
-            <td align="center">4.61</td>
-            <td align="center">134</td>>
+            <td align="right">4.61</td>
+            <td align="right">134</td>>
             <td align="center" rowspan="2"><a href="https://huggingface.co/timm/mobileone_s1.apple_in1k">Hugging Face</a></td>
             <td align="center" rowspan="2">Apple</td>
         </tr>
@@ -67,12 +67,12 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">960x520x3</td>
-            <td align="center">13.04</td>
-            <td align="center">0.575</td>
-            <td align="center">0.542</td>
+            <td align="right">13.04</td>
+            <td align="right">0.575</td>
+            <td align="right">0.542</td>
             <td align="center">INT8 </td>
-            <td align="center">4.61</td>
-            <td align="center">134</td>
+            <td align="right">4.61</td>
+            <td align="right">134</td>
         </tr>
     </tbody>
 </table>

@@ -53,12 +53,12 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">PyTorch</td>
             <td align="center">MNIST</td>
             <td align="center">32x32x1</td>
-            <td align="center">0.05</td>
-            <td align="center">0.986</td>
-            <td align="center">0.982</td>
+            <td align="right">0.05</td>
+            <td align="right">0.986</td>
+            <td align="right">0.982</td>
             <td align="center">INT8 </td>
-            <td align="center">0.05</td>
-            <td align="center">2</td>
+            <td align="right">0.05</td>
+            <td align="right">2</td>
             <td align="center"><a href="https://huggingface.co/mindspore-ai/LeNet">Hugging Face</a></td>
             <td align="center">Apache-2.0</td>
         </tr>

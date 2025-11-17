@@ -55,12 +55,12 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">640x320x3</td>
-            <td align="center">15.34</td>
-            <td align="center">0.588</td>
-            <td align="center">0.586</td>
+            <td align="right">15.34</td>
+            <td align="right">0.588</td>
+            <td align="right">0.586</td>
             <td align="center">INT8 </td>
-            <td align="center">11.25</td>
-            <td align="center">23</td>
+            <td align="right">11.25</td>
+            <td align="right">23</td>
             <td align="center" rowspan="2"><a href="https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet18.html#torchvision.models.resnet18">PyTorch</a></td>
             <td align="center" rowspan="2">BSD-3-Clause</td>
         </tr>
@@ -68,24 +68,24 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">960x520x3</td>
-            <td align="center">36.01</td>
-            <td align="center">0.61</td>
-            <td align="center">0.605</td>
+            <td align="right">36.01</td>
+            <td align="right">0.610</td>
+            <td align="right">0.605</td>
             <td align="center">INT8 </td>
-            <td align="center">11.25</td>
-            <td align="center">64</td>
+            <td align="right">11.25</td>
+            <td align="right">64</td>
         </tr>
         <tr>
             <td align="center" rowspan="3" class="variant"><a href="resnet_50/">50</a></td>
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">224x224x3</td>
-            <td align="center">9.09</td>
-            <td align="center">0.719</td>
-            <td align="center">0.716</td>
+            <td align="right">9.09</td>
+            <td align="right">0.719</td>
+            <td align="right">0.716</td>
             <td align="center">INT8 </td>
-            <td align="center">25.1</td>
-            <td align="center">30</td>
+            <td align="right">25.10</td>
+            <td align="right">30</td>
             <td align="center" rowspan="3"><a href="https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html#torchvision.models.resnet50">PyTorch</a></td>
             <td align="center" rowspan="3">BSD-3-Clause</td>
         </tr>
@@ -93,35 +93,35 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">640x320x3</td>
-            <td align="center">29.95</td>
-            <td align="center">0.62</td>
-            <td align="center">0.619</td>
+            <td align="right">29.95</td>
+            <td align="right">0.620</td>
+            <td align="right">0.619</td>
             <td align="center">INT8 </td>
-            <td align="center">24.51</td>
-            <td align="center">87</td>
+            <td align="right">24.51</td>
+            <td align="right">87</td>
         </tr>
         <tr>
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">960x520x3</td>
-            <td align="center">77.52</td>
-            <td align="center">0.654</td>
-            <td align="center">0.65</td>
+            <td align="right">77.52</td>
+            <td align="right">0.654</td>
+            <td align="right">0.650</td>
             <td align="center">INT8 </td>
-            <td align="center">24.51</td>
-            <td align="center">273</td>
+            <td align="right">24.51</td>
+            <td align="right">273</td>
         </tr>
         <tr>
             <td align="center" rowspan="1" class="variant"><a href="resnet_50_v2/">50-v2</a></td>
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">224x224x3</td>
-            <td align="center">9.84</td>
-            <td align="center">0.697</td>
-            <td align="center">0.677</td>
+            <td align="right">9.84</td>
+            <td align="right">0.697</td>
+            <td align="right">0.677</td>
             <td align="center">INT8 </td>
-            <td align="center">25.3</td>
-            <td align="center">32</td>
+            <td align="right">25.30</td>
+            <td align="right">32</td>
             <td align="center" rowspan="1"><a href="https://github.com/onnx/models/tree/main/validated/vision/classification/resnet">Github</a></td>
             <td align="center" rowspan="1">Apache-2.0</td>
         </tr>

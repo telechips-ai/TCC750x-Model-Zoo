@@ -1,7 +1,7 @@
 # Segmentation Benchmark on TCC750x
-The following table shows benchmark results for various segmentation models running on the TCC750x NPU.  
-You can compare the performance of each model.  
-  
+The following table shows benchmark results for various segmentation models running on the TCC750x NPU.
+You can compare the performance of each model.
+
 Click on the model name to download a tar file containing the model binary for TCC750x.
 - - -
 ![YOLOv11 Model Performance](../_docs/image/seg_performance.png)
@@ -19,7 +19,7 @@ Click on the model name to download a tar file containing the model binary for T
 | **Mask**             | Instance segmentation mask Mean Average Precision (mAP), based on segmentation quality                    |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
 | **Compiled Model Files**   | Sizes of the compiled model components: Weight and Bias Binary (.bin) and Command Binary (.bin) for execution on TCC750x                    |
-| **References**           | Link to the original repository of the model      
+| **References**           | Link to the original repository of the model
 
 - - -
 
@@ -53,62 +53,62 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO-Seg</td>
             <td align="center">512x512x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">37.5</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.589</td>
-            <td align="center">0.579</td>
-            <td align="center">0.526</td>
-            <td align="center">0.518</td>
+            <td align="right">37.5</td> <!-- Inference Time (msec): EVB -->
+            <td align="right">0.589</td>
+            <td align="right">0.579</td>
+            <td align="right">0.526</td>
+            <td align="right">0.518</td>
             <td align="center">INT8</td>
-            <td align="center">21.19</td>
-            <td align="center">201</td>
+            <td align="right">21.19</td>
+            <td align="right">201</td>
             <td align="center" rowspan="4"><a href="https://docs.ultralytics.com/tasks/segment/">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO-Seg</td>
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">62.9</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.611</td>
-            <td align="center">0.597</td>
-            <td align="center">0.554</td>
-            <td align="center">0.54</td>
+            <td align="right">62.9</td> <!-- Inference Time (msec): EVB -->
+            <td align="right">0.611</td>
+            <td align="right">0.597</td>
+            <td align="right">0.554</td>
+            <td align="right">0.54</td>
             <td align="center">INT8</td>
-            <td align="center">21.19</td>
-            <td align="center">311</td>
+            <td align="right">21.19</td>
+            <td align="right">311</td>
         </tr>
         <tr>
             <td align="center" class="variant" rowspan="2"><a href="YOLO-Seg/yolov11-seg/yolov11l-seg/">l<a></td> <!-- Models: Variant -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO-Seg</td>
             <td align="center">512x512x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">44.4</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.604</td>
-            <td align="center">0.594</td>
-            <td align="center">0.542</td>
-            <td align="center">0.532</td>
+            <td align="right">44.4</td> <!-- Inference Time (msec): EVB -->
+            <td align="right">0.604</td>
+            <td align="right">0.594</td>
+            <td align="right">0.542</td>
+            <td align="right">0.532</td>
             <td align="center">INT8</td>
-            <td align="center">26.02</td>
-            <td align="center">231</td>
+            <td align="right">26.02</td>
+            <td align="right">231</td>
         </tr>
         <tr>
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO-Seg</td>
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">73.7</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.63</td>
-            <td align="center">0.616</td>
-            <td align="center">0.569</td>
-            <td align="center">0.556</td>
+            <td align="right">73.7</td> <!-- Inference Time (msec): EVB -->
+            <td align="right">0.63</td>
+            <td align="right">0.616</td>
+            <td align="right">0.569</td>
+            <td align="right">0.556</td>
             <td align="center">INT8</td>
-            <td align="center">26.02</td>
-            <td align="center">352</td>
+            <td align="right">26.02</td>
+            <td align="right">352</td>
         </tr>
     </tbody>
 </table>
 
 - - -
 
-### Footnote                
+### Footnote
 * PyTorch* models are converted to ONNX for deployment.
 
 * YOLOv11-Seg** is a custom-modified version based on a reference YOLO model. Specifically, the C2PSA layers in the backbone have been replaced with Squeeze-and-Excitation (SE) modules to better suit the TCC750x NPU.

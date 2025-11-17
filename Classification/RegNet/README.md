@@ -50,17 +50,17 @@ Click on the model name to download a tar file containing the model binary for T
     </thead>
     <tbody>
         <tr>
-            <td align="center" rowspan="2" colspan="1">RegNetX</td>
+            <td align="center" rowspan="3" colspan="1">RegNetX</td>
             <td align="center" rowspan="2" colspan="1"><a href="regnetx_400mf/">400mf</a></td>
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">640x320x3</td>
-            <td align="center">7.17</td>
-            <td align="center">0.529</td>
-            <td align="center">0.524</td>
+            <td align="right">7.17</td>
+            <td align="right">0.529</td>
+            <td align="right">0.524</td>
             <td align="center">INT8 </td>
-            <td align="center">23.37</td>
-            <td align="center">32</td>
+            <td align="right">23.37</td>
+            <td align="right">32</td>
             <td align="center" rowspan="2" colspan="1"><a href="https://docs.pytorch.org/vision/main/models/generated/torchvision.models.regnet_y_400mf.html#torchvision.models.regnet_y_400mf">PyTorch</a></td>
             <td align="center" rowspan="2" colspan="1">BSD-3-Clause</td>
         </tr>
@@ -68,12 +68,26 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
             <td align="center">960x520x3</td>
-            <td align="center">15.95</td>
-            <td align="center">0.575</td>
-            <td align="center">0.57</td>
+            <td align="right">15.95</td>
+            <td align="right">0.575</td>
+            <td align="right">0.570</td>
             <td align="center">INT8 </td>
-            <td align="center">23.37</td>
-            <td align="center">47</td>
+            <td align="right">23.37</td>
+            <td align="right">47</td>
+        </tr>
+        <tr>
+            <td align="center" rowspan="1" colspan="1"><a href="regnetx_800mf/">800mf</a></td>
+            <td align="center">PyTorch</td>
+            <td align="center">ILSVRC 2012</td>
+            <td align="center">224x224x3</td>
+            <td align="right">4.81</td>
+            <td align="right">0.733</td>
+            <td align="right">0.731</td>
+            <td align="center">INT8 </td>
+            <td align="right">30.99</td>
+            <td align="right">29</td>
+            <td align="center" rowspan="1" colspan="1"><a href="https://docs.pytorch.org/vision/main/models/generated/torchvision.models.regnet_x_800mf.html#torchvision.models.regnet_x_800mf">PyTorch</a></td>
+            <td align="center" rowspan="2" colspan="1">BSD-3-Clause</td>
         </tr>
     </tbody>
 </table>

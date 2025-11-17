@@ -64,18 +64,18 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO-Seg</td>
             <td align="center">512x512x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">37.5</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.446</td>
-            <td align="center">0.424</td>
-            <td align="center">0.361</td>
-            <td align="center">0.318</td>
-            <td align="center">0.589</td>
-            <td align="center">0.579</td>
-            <td align="center">0.526</td>
-            <td align="center">0.518</td>
+            <td align="right">37.5</td> <!-- Inference Time (msec): EVB -->
+            <td align="right">0.446</td>
+            <td align="right">0.424</td>
+            <td align="right">0.361</td>
+            <td align="right">0.318</td>
+            <td align="right">0.589</td>
+            <td align="right">0.579</td>
+            <td align="right">0.526</td>
+            <td align="right">0.518</td>
             <td align="center">INT8</td>
-            <td align="center">21.19</td>
-            <td align="center">201</td>
+            <td align="right">21.19</td>
+            <td align="right">201</td>
             <td align="center" rowspan="4"><a href="https://docs.ultralytics.com/tasks/segment/">GitHub<a></td> <!-- References: Link -->
             <td align="center" rowspan="4">AGPL-3.0</td>
         </tr>
@@ -83,53 +83,53 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO-Seg</td>
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">62.9</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.468</td>
-            <td align="center">0.441</td>
-            <td align="center">0.382</td>
-            <td align="center">0.336</td>
-            <td align="center">0.611</td>
-            <td align="center">0.597</td>
-            <td align="center">0.554</td>
-            <td align="center">0.54</td>
+            <td align="right">62.9</td> <!-- Inference Time (msec): EVB -->
+            <td align="right">0.468</td>
+            <td align="right">0.441</td>
+            <td align="right">0.382</td>
+            <td align="right">0.336</td>
+            <td align="right">0.611</td>
+            <td align="right">0.597</td>
+            <td align="right">0.554</td>
+            <td align="right">0.54</td>
             <td align="center">INT8</td>
-            <td align="center">21.19</td>
-            <td align="center">311</td>
+            <td align="right">21.19</td>
+            <td align="right">311</td>
         </tr>
         <tr>
             <td align="center" class="variant" rowspan="2"><a href="yolov11-seg/yolov11l-seg/">l</a></td> <!-- Models: Variant -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO-Seg</td>
             <td align="center">512x512x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">44.4</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.46</td>
-            <td align="center">0.439</td>
-            <td align="center">0.37</td>
-            <td align="center">0.326</td>
-            <td align="center">0.604</td>
-            <td align="center">0.594</td>
-            <td align="center">0.542</td>
-            <td align="center">0.532</td>
+            <td align="right">44.4</td> <!-- Inference Time (msec): EVB -->
+            <td align="right">0.46</td>
+            <td align="right">0.439</td>
+            <td align="right">0.37</td>
+            <td align="right">0.326</td>
+            <td align="right">0.604</td>
+            <td align="right">0.594</td>
+            <td align="right">0.542</td>
+            <td align="right">0.532</td>
             <td align="center">INT8</td>
-            <td align="center">26.02</td>
-            <td align="center">231</td>
+            <td align="right">26.02</td>
+            <td align="right">231</td>
         </tr>
         <tr>
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO-Seg</td>
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">73.7</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.487</td>
-            <td align="center">0.458</td>
-            <td align="center">0.395</td>
-            <td align="center">0.347</td>
-            <td align="center">0.63</td>
-            <td align="center">0.616</td>
-            <td align="center">0.569</td>
-            <td align="center">0.556</td>
+            <td align="right">73.7</td> <!-- Inference Time (msec): EVB -->
+            <td align="right">0.487</td>
+            <td align="right">0.458</td>
+            <td align="right">0.395</td>
+            <td align="right">0.347</td>
+            <td align="right">0.63</td>
+            <td align="right">0.616</td>
+            <td align="right">0.569</td>
+            <td align="right">0.556</td>
             <td align="center">INT8</td>
-            <td align="center">26.02</td>
-            <td align="center">352</td>
+            <td align="right">26.02</td>
+            <td align="right">352</td>
         </tr>
     </tbody>
 </table>

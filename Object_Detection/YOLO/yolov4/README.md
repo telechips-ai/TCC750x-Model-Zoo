@@ -31,14 +31,14 @@
             <td align="center">Darknet</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">608x608x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">57.5</td>
-            <td align="center">0.501</td>
-            <td align="center">0.402</td>
-            <td align="center">0.748</td>
-            <td align="center">0.735</td>
+            <td align="right">57.5</td>
+            <td align="right">0.501</td>
+            <td align="right">0.402</td>
+            <td align="right">0.748</td>
+            <td align="right">0.735</td>
             <td align="center">INT8 </td>
-            <td align="center">62.92</td>
-            <td align="center">306</td>
+            <td align="right">62.92</td>
+            <td align="right">306</td>
             <td align="center"><a href="https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4.cfg">Github<a></td> <!-- References: Link -->
             <td align="center">YOLO</td>
         </tr>

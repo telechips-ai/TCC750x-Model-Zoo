@@ -32,14 +32,14 @@
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">8.09</td>
-            <td align="center">0.344</td>
-            <td align="center">0.331</td>
-            <td align="center">0.501</td>
-            <td align="center">0.488</td>
+            <td align="right">8.09</td>
+            <td align="right">0.344</td>
+            <td align="right">0.331</td>
+            <td align="right">0.501</td>
+            <td align="right">0.488</td>
             <td align="center">INT8 </td>
-            <td align="center">3.15</td>
-            <td align="center">70</td>
+            <td align="right">3.15</td>
+            <td align="right">70</td>
             <td align="center" rowspan="5"><a href="https://github.com/ultralytics/ultralytics">GitHub<a></td> <!-- References: Link -->
             <td align="center" rowspan="5">AGPL-3.0</td>
         </tr>
@@ -48,56 +48,56 @@
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">15.49</td>
-            <td align="center">0.416</td>
-            <td align="center">0.405</td>
-            <td align="center">0.586</td>
-            <td align="center">0.576</td>
+            <td align="right">15.49</td>
+            <td align="right">0.416</td>
+            <td align="right">0.405</td>
+            <td align="right">0.586</td>
+            <td align="right">0.576</td>
             <td align="center">INT8 </td>
-            <td align="center">10.93</td>
-            <td align="center">91</td>
+            <td align="right">10.93</td>
+            <td align="right">91</td>
         </tr>
         <tr>
             <td align="center" class="variant">m</td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">39.31</td>
-            <td align="center">0.472</td>
-            <td align="center">0.458</td>
-            <td align="center">0.644</td>
-            <td align="center">0.632</td>
+            <td align="right">39.31</td>
+            <td align="right">0.472</td>
+            <td align="right">0.458</td>
+            <td align="right">0.644</td>
+            <td align="right">0.632</td>
             <td align="center">INT8 </td>
-            <td align="center">25.39</td>
-            <td align="center">153</td>
+            <td align="right">25.39</td>
+            <td align="right">153</td>
         </tr>
         <tr>
             <td align="center" class="variant">l</td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">67.04</td>
-            <td align="center">0.499</td>
-            <td align="center">0.483</td>
-            <td align="center">0.67</td>
-            <td align="center">0.654</td>
+            <td align="right">67.04</td>
+            <td align="right">0.499</td>
+            <td align="right">0.483</td>
+            <td align="right">0.67</td>
+            <td align="right">0.654</td>
             <td align="center">INT8 </td>
-            <td align="center">42.72</td>
-            <td align="center">245</td>
+            <td align="right">42.72</td>
+            <td align="right">245</td>
         </tr>
         <tr>
             <td align="center" class="variant">x</td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">113.31</td>
-            <td align="center">0.508</td>
-            <td align="center">0.493</td>
-            <td align="center">0.681</td>
-            <td align="center">0.664</td>
+            <td align="right">113.31</td>
+            <td align="right">0.508</td>
+            <td align="right">0.493</td>
+            <td align="right">0.681</td>
+            <td align="right">0.664</td>
             <td align="center">INT8 </td>
-            <td align="center">66.85</td>
-            <td align="center">434</td>
+            <td align="right">66.85</td>
+            <td align="right">434</td>
         </tr>
     </tbody>
 </table>
