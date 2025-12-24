@@ -1,6 +1,6 @@
 # ResNet Benchmark on TCC750x
 
-The following table shows benchmark results for the ResNet-18, ResNet-50, and ResNet-50-v2 models running on the TCC750x NPU.
+The following table shows benchmark results for the ResNet-18, ResNet-34, ResNet-50, ResNet-101, ResNet-152 and ResNet-50-v2 models running on the TCC750x NPU.
 ResNet is a family of lightweight and efficient convolutional neural networks optimized for image classification tasks, particularly on embedded and mobile devices.
 
 All models are evaluated using the ILSVRC 2012 (ImageNet) validation dataset and compiled with the tc-nn-toolkit toolkit.
