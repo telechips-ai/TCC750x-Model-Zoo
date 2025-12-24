@@ -127,8 +127,8 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">ILSVRC 2012</td>
             <td align="center">224x224x3</td>
             <td align="right">0.97</td>
-            <td align="right">0.660</td>
-            <td align="right">0.652</td>
+            <td align="right">0.698</td>
+            <td align="right">0.688</td>
             <td align="center">INT8</td>
             <td align="right">3.47</td>
             <td align="right">41</td>
@@ -198,7 +198,7 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center" rowspan="1" colspan="1"><a href="https://docs.pytorch.org/vision/main/models/generated/torchvision.models.regnet_x_800mf.html#torchvision.models.regnet_x_800mf">PyTorch</a></td>
         </tr>
         <tr>
-            <td align="center" rowspan="6" class="model"><a href="ResNet/README.md">ResNet</a></td>
+            <td align="center" rowspan="9" class="model"><a href="ResNet/README.md">ResNet</a></td>
             <td align="center" rowspan="2" class="variant"><a href="ResNet/resnet_18/">18</a></td>
             <td align="center">PyTorch</td>
             <td align="center">ILSVRC 2012</td>
@@ -221,6 +221,19 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">INT8 </td>
             <td align="right">11.25</td>
             <td align="right">64</td>
+        </tr>
+        <tr>
+            <td align="center" rowspan="1" class="variant"><a href="ResNet/resnet_34/">34</a></td>
+            <td align="center">PyTorch</td>
+            <td align="center">ILSVRC 2012</td>
+            <td align="center">224x224x3</td>
+            <td align="right">7.92</td>
+            <td align="right">0.677</td>
+            <td align="right">0.588</td>
+            <td align="center">INT8 </td>
+            <td align="right">21.40</td>
+            <td align="right">24</td>
+            <td align="center" rowspan="1" class="variant"><a href="https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet34.html#torchvision.models.resnet34">PyTorch</a></td>
         </tr>
         <tr>
             <td align="center" rowspan="3" class="variant"><a href="ResNet/resnet_50/">50</a></td>
@@ -269,6 +282,32 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="right">25.30</td>
             <td align="right">32</td>
             <td align="center" rowspan="1" class="variant"><a href="https://github.com/onnx/models/tree/main/validated/vision/classification/resnet">Github</a></td>
+        </tr>
+        <tr>
+            <td align="center" rowspan="1" class="variant"><a href="ResNet/resnet_101/">101</a></td>
+            <td align="center">PyTorch</td>
+            <td align="center">ILSVRC 2012</td>
+            <td align="center">224x224x3</td>
+            <td align="right">14.22</td>
+            <td align="right">0.799</td>
+            <td align="right">0.618</td>
+            <td align="center">INT8 </td>
+            <td align="right">43.70</td>
+            <td align="right">49</td>
+            <td align="center" rowspan="1" class="variant"><a href="https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet101.html#torchvision.models.resnet101">PyTorch</a></td>
+        </tr>
+        <tr>
+            <td align="center" rowspan="1" class="variant"><a href="ResNet/resnet_152/">152</a></td>
+            <td align="center">PyTorch</td>
+            <td align="center">ILSVRC 2012</td>
+            <td align="center">224x224x3</td>
+            <td align="right">18.77</td>
+            <td align="right">0.807</td>
+            <td align="right">0.586</td>
+            <td align="center">INT8 </td>
+            <td align="right">59.02</td>
+            <td align="right">67</td>
+            <td align="center" rowspan="1" class="variant"><a href="https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet152.html#torchvision.models.resnet152">PyTorch</a></td>
         </tr>
     </tbody>
 </table>

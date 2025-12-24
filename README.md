@@ -79,7 +79,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center" colspan="2">MobileNet-v2-10</td>
             <td align="center">224×224×3</td>
             <td align="right">0.97</td>
-            <td align="right">0.652</td>
+            <td align="right">0.688</td>
         </tr>
         <tr>
             <td align="center" rowspan="2" colspan="2">MobileOne-s1</td>
@@ -121,6 +121,12 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="right">0.605</td>
         </tr>
         <tr>
+            <td align="center" colspan="2">ResNet-34</td>
+            <td align="center">224x224×3</td>
+            <td align="right">7.92</td>
+            <td align="right">0.588</td>
+        </tr>
+        <tr>
             <td align="center" rowspan="3" colspan="2">ResNet-50</td>
             <td align="center">224×224×3</td>
             <td align="right">9.09</td>
@@ -142,6 +148,18 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="right">9.84</td>
             <td align="right">0.677</td>
         </tr>
+        <tr>
+            <td align="center" colspan="2">ResNet-101</td>
+            <td align="center">224x224×3</td>
+            <td align="right">14.22</td>
+            <td align="right">0.618</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">ResNet-152</td>
+            <td align="center">224x224×3</td>
+            <td align="right">18.77</td>
+            <td align="right">0.586</td>
+        </tr>
     </tbody>
 </table>
 
@@ -159,7 +177,7 @@ The results shown are not guaranteed for production use, and you are responsible
             <td align="center" colspan="2">SSDlite-MobileNet-v1</td> <!-- Model -->
             <td align="center">320x320x3</td> <!-- Input Size(WxHxC) -->
             <td align="right">2.38</td> <!-- Inference Time(msec): EVB -->
-            <td align="right">0.324</td> <!-- COCO AP@[.50:.95] -->
+            <td align="right">0.367</td> <!-- COCO AP@[.50:.95] -->
         </tr>
         <tr>
             <td align="center" colspan="2">SSDlite-MobileNet-v2</td> <!-- Model -->

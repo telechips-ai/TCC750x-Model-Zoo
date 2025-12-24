@@ -53,8 +53,8 @@ Click on the model name to download a tar file containing the model binary for T
             <td align="center">COCO2017</td> <!-- Detections/DataSet -->
             <td align="center">320x320x3</td> <!-- Input Size (WxHxC) -->
             <td align="right">2.38</td> <!-- Inference Time(msec): EVB -->
-            <td align="right">0.331</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
-            <td align="right">0.324</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
+            <td align="right">0.376</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="right">0.367</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center">INT8 </td>
             <td align="right">7.25</td>
             <td align="right">41</td>
